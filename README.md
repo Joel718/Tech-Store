@@ -1,7 +1,7 @@
-# Hej-world
+# Uppgift JS
 
 
-## Inledning
+## assignment
 
 
 
