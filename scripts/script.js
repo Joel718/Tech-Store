@@ -50,7 +50,7 @@ function createUIFromLoadedProducts() {
     
         // Epost
         var getDescription = document.createElement("h4");
-        getDescription.innerText = listOfProducts.description
+        getDescription.innerText = listOfProducts.description;
         adressCard.appendChild(getDescription);
     
         // Image 
@@ -62,14 +62,14 @@ function createUIFromLoadedProducts() {
         // Pris 
 
         var getPrice = document.createElement("h3");
-        getPrice.innerText = "Price: " + listOfProducts.price
+        getPrice.innerText = "Price: " + listOfProducts.price;
         adressCard.appendChild(getPrice);
 
 
        // add buttons
 
        var buttonElement = document.createElement("button");
-       buttonElement.onclick = function() {positive()};    
+       buttonElement.onclick = function() {positive();};    
        buttonElement.innerHTML = '<i class="fa fa-shopping-cart fa-1x"></i>' + " " + "Lägg till i kundvagn";
        adressCard.appendChild(buttonElement);  
        
@@ -101,5 +101,3 @@ function createUIFromLoadedProducts() {
         // med return skriver vi ut vad funktionen har skapat
 
     }
-
-

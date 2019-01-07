@@ -11,6 +11,13 @@ h3 {
 
 }
 
+img {
+
+    max-height: 475px;
+    max-width: 230px;
+
+}
+
 #header {
 
      background-color: #212121;
